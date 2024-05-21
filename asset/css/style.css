@@ -1,0 +1,123 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+
+}
+
+/* all CSS for header */
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav > li > a { /* chỉ ăn câp 2 */
+    color: #fff;
+    display: inline-block;
+}
+
+#nav a {
+    font-size: 15px;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: gray;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover { /* lấy toàn bộ menu */
+    display: block;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav .subnav {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: none;
+}
+
+#nav .subnav a {
+    color: #000;
+}
+
+#nav .more-arrow-btn {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+}
+
+#header .search-btn-icon {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 16px;
+    line-height: 46px;
+}
+
+#header .search-btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#nav { /* co chỉ từ Home -> More */
+    display: inline-block;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* all CSS for slider */
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/f8_band/asset/img/slider/chicago.jpg') top center / cover no-repeat;
+}
+
+#slider .text-container {
+    position: absolute;
+    color: #000;
+    left: 0;
+    right: 0;
+}
+
+#slider .slider-text-heading {
+    text-align: center;
+}
+
+#slider .slider-text-detail {
+    text-align: center;
+}
+
+/* all CSS for content */
+#content {
+
+}
+
+/* all CSS for footer */
+#footer {
+
+}
